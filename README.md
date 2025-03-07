@@ -8,8 +8,11 @@ The Singleton pattern guarantees that only one instance of the configuration man
 
 # Implementation Details:
 ✔ Developed the ConfigurationManager class to handle key-value configuration settings (e.g., maxPlayers, defaultLanguage, gameDifficulty).
+
 ✔ Added a method to fetch configuration values by key.
+
 ✔ Applied lazy initialization to instantiate the manager only when required.
+
 ✔ Implemented a method to display all settings for debugging.
 
 # Expected Behavior ✅:
@@ -21,7 +24,9 @@ The Adapter pattern bridges the gap between the legacy chat system and the moder
 
 # Implementation Details:
 ✔ Created the LegacyChatService class to mimic the old chat system.
+
 ✔ Defined the ChatService interface with a sendMessage method.
+
 ✔ Developed the ChatServiceAdapter to translate calls from the new interface to the legacy service.
 
 # Expected Behavior ✅:
