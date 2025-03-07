@@ -17,6 +17,7 @@ The Singleton pattern guarantees that only one instance of the configuration man
 
 # Expected Behavior ✅:
 🔹 Calling getConfig("maxPlayers") should return "100".
+
 🔹 The print method should output all stored configuration settings.
 
 # Part 2: Chat Service Adapter (Adapter Pattern)
@@ -42,14 +43,17 @@ The code includes clear comments explaining the logic behind each implementation
 
 # ✔ Testing:
 🔹 ConfigurationManager correctly retrieves and displays configuration values.
+
 🔹 ChatServiceAdapter accurately translates messages between systems.
 
 # ✔ Code Quality:
 🔹 Adheres to Single Responsibility and Dependency Inversion principles.
+
 🔹 Uses clear naming conventions and follows best practices for code organization.
 
 # 🔧 Compilation & Execution Instructions:
 1️⃣ Compile the Java files.
+
 2️⃣ Run the demo classes to verify functionality:
 
 ConfigManagerDemo (for Part 1)
